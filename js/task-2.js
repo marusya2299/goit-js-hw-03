@@ -2,7 +2,7 @@
 
 function makeArray(firstArray, secondArray, maxLength) {
 
-    const newArray = [...firstArray, ...secondArray];
+    let newArray = [...firstArray, ...secondArray];
     
     if (newArray.length > maxLength) {
 
